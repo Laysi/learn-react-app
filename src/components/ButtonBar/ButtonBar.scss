@@ -87,7 +87,6 @@
     transform: rotate(180deg);
     
 }
-/*第一个三角形*/
 .Vector::before{ 
     content: '';
     display: block;
@@ -98,12 +97,11 @@
     border-right: 6px solid transparent;
     border-bottom: 6px solid black;
 }
-/*第二个三角形*/
 .Vector::after{
     content: '';
     display: block;
     position: absolute;
-    top: -24px; /*向下偏移量是矩形边框宽度的1.4（根号2）倍，即8.4，top值为-26-（-8.4）*/
+    top: -24px; 
     left: 80px;
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
