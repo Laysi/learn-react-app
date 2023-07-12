@@ -1,11 +1,11 @@
-import React, { FC } from 'react';
+import { type FC } from 'react';
 import './HomePage.scss';
-
+import Components from '../../Components/Components';
 interface HomePageProps {}
 
 const HomePage: FC<HomePageProps> = () => (
   <div className="HomePage" data-testid="HomePage">
-    HomePage Component
+  <div> <Components /></div>
   </div>
 );
 
