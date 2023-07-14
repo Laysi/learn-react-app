@@ -23,8 +23,6 @@
   }
   
   .Button {
-    
-    
     width: 120px;
     height: 40px;
     background-color: transparent;
@@ -38,39 +36,36 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.28px;
-    
-      
-      
-  }
-  .Button.ButtonHome{
-    margin-left: 1px;
-  }
-  .Button.ButtonPayments{
-    margin-left: 8px;
-  }
-  .Button.ButtonCustomers{
-    margin-left: 24px;
-  }
-  .Button.ButtonProducts{
-    margin-left: 19px;
-  }
-  .Button.ButtonReports{
-    margin-left: 10px;
-  }
-  .Button.ButtonConnect{
-    margin-left: 10px;
-  }
-  .Button.ButtonPrimary {
-    background-color: red;
-    color: white;
-  }
-  .Button.Developers{
-    margin-left: 62px;
-  }
-  .Button.TestMode{
-    margin-left: -19px;
-  }
   
+    &.ButtonHome {
+      margin-left: 1px;
+    }
+    &.ButtonPayments {
+      margin-left: 8px;
+    }
+    &.ButtonCustomers {
+      margin-left: 24px;
+    }
+    &.ButtonProducts {
+      margin-left: 19px;
+    }
+    &.ButtonReports {
+      margin-left: 10px;
+    }
+    &.ButtonConnect {
+      margin-left: 10px;
+    }
+    &.ButtonPrimary {
+      background-color: red;
+      color: white;
+    }
+    &.Developers {
+      margin-left: 62px;
+    }
+    &.TestMode {
+      margin-left: -19px;
+    }
+  }
 .SwitchButton {
   margin-left: -13px;
   transform: scale(1.3,1.6) !important;
